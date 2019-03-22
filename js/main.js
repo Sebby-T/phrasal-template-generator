@@ -1,0 +1,21 @@
+var storyTime = function () {
+  var colour = prompt('A colour (orange, indigo, etc.)');
+  var creature = prompt('A creature (dragon, moth, etc.)');
+  var adjective = prompt('An adjective (beautiful, super, etc.)');
+  var verbed = prompt('A past tense verb (ran, burped, etc.)');
+  var option = prompt('Which story would you like?\na) Snacking\nb) Escaping\nc) Winning\n\nEnter the letter below:');
+}
+
+alert('Let’s make a story together!');
+
+if (option == 'a') {
+  document.write('After snacking on ' + adjective + ' treats, the ' + colour + ' bellied ' + creature + ' ' + verbed + ' for hours.');
+} else {
+  if (option == 'b') {
+    document.write('Amelia ' + verbed + ' through the ' + adjective + ' ' + colour + ' nebula escaping the space ' + creature + '.');
+  } else {
+    if (option == 'c') {
+      document.write('Jackson chose his ' + adjective + ', ' + colour + ' ' + creature + ' card and ' + verbed + ' it to the table knowing he won.');
+    }
+  }
+}
